@@ -14,7 +14,19 @@ gem 'puma', '~> 3.11'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
+
+# jwt gem
+gem 'jwt'
+
+# pry
+gem 'pry-rails'
+
+# rack-cors gem
+gem 'rack-cors', require: 'rack/cors'
+
+# simple_command gem
+gem 'simple_command'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'

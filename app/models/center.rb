@@ -1,3 +1,5 @@
 class Center < ApplicationRecord
-  validates_presence_of :name, :address, :state, :detail
+  belongs_to :user
+  validates_presence_of :name, :address, :detail, :state, :capacity
+  validates_uniqueness_of :name
 end
